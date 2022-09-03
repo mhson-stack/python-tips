@@ -108,3 +108,9 @@ a, b = a[b] = a = [1, 2, 3], 2
 # a = [1, 2, [[1, 2, 3], 2]], b = 2
 # a = [1, 2, 3], 2
 print(a)
+
+
+# 12 
+# lamda functions
+# lambda argument : (true return) if (condition) else (false return)
+only_pos = lambda x : x if x > 0 else 0
