@@ -114,3 +114,10 @@ print(a)
 # lamda functions
 # lambda argument : (true return) if (condition) else (false return)
 only_pos = lambda x : x if x > 0 else 0
+
+# 13 
+# merge dicts
+d1 = {"name" : "Alex", "age" : 25}
+d2 = {"name" : "Alex", "city" : "New York"}
+
+merged_dict = {**d1, **d2}
